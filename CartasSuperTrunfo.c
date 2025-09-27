@@ -20,8 +20,9 @@ int main() {
         float pib0, pib1; // O Produto Interno Bruto da cidade.
         int pontosturisticos0, pontosturisticos1; //A quantidade de pontos turisticos na cidade.
 
-        // Cidade 1.
-        printf("Digite o Estado da primeira carta: \n");
+        // leitura dos dados da primeira carta.
+        printf("Digite os dados da primeira carta \n");
+        printf("Digite o Estado: \n");
         scanf("%s", estado0);
 
         printf("Digite o codigo da carta: \n");
@@ -42,8 +43,9 @@ int main() {
         printf("Digite a quantidade de pontos turisticos: \n");
         scanf("%d", &pontosturisticos0);
 
-        // Cidade 2.
-        printf("Digite o Estado da Segunda carta: \n");
+        // Leitura dos dados da segunda carta.
+        printf("Digite os dados da segunda carta \n");
+        printf("Digite o Estado: \n");
         scanf("%s", estado1);
 
         printf("Digite o codigo da carta: \n");
@@ -66,8 +68,8 @@ int main() {
 
         // Cartas 1 e 2
 
-        printf("Estado: %s \n Codigo: %s\n Nome da Cidade: %s\n Populacao: %d\n Area: %f\n PIB: %f\n Numero de Pontos Turisticos: %d\n", estado0, codigocarta0, nomecidade0, populacao0, area0, pib0, pontosturisticos0);
-        printf("Estado: %s \n Codigo: %s\n Nome da Cidade: %s\n Populacao: %d\n Area: %f\n PIB: %f\n Numero de Pontos Turisticos: %d\n", estado1, codigocarta1, nomecidade1, populacao1, area1, pib1, pontosturisticos1);
+        printf("Carta 1: \n Estado: %s \n Codigo: %s\n Nome da Cidade: %s\n Populacao: %d\n Area: %f km²\n PIB: %f\n Numero de Pontos Turisticos: %d\n", estado0, codigocarta0, nomecidade0, populacao0, area0, pib0, pontosturisticos0);
+        printf("Carta 2: \nEstado: %s \n Codigo: %s\n Nome da Cidade: %s\n Populacao: %d\n Area: %f km²\n PIB: %f\n Numero de Pontos Turisticos: %d\n", estado1, codigocarta1, nomecidade1, populacao1, area1, pib1, pontosturisticos1);
 
 return 0;
 } 
